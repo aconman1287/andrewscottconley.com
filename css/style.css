@@ -1,0 +1,280 @@
+/*General*/
+body {
+	font-family: "factoria";
+}
+
+h1 {
+  font-family: "ff-market-web";
+}
+
+h2 {
+	font-family: "flood-std";
+}
+
+.social {
+	text-align: center;
+}
+
+.social a.twitter {
+  background-image: url('../img/twitter.png');
+}
+
+.social a.linkedin {
+  background-image: url('../img/linkedin.png');
+}
+
+.social a.github {
+  background-image: url('../img/github.png');
+}
+
+.social a.medium {
+  background-image: url('../img/medium.png');
+}
+
+.social a.email {
+  background-image: url('../img/email.png');
+}
+
+.social a {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-indent: -999em;
+  -webkit-transform: scale(0.5, 0.5);
+  transform: scale(0.5, 0.5);
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  border: 0;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+/*Navbar*/
+
+.navbar {
+	margin-bottom: 0px;
+	background-color: white;
+}
+
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+		border-color: white;
+	}
+}
+
+.navbar-default .navbar-brand {
+	color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: black;
+}
+
+.logo {
+	font-family: "blenny";
+	font-size: 28px;
+}
+
+
+/*Header*/
+
+.header {
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../img/woods.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1280px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	min-height: 400px;
+	color: white;
+}
+
+.headerRow {
+	margin-top: 120px;
+}
+
+.name {
+	padding-top: 30px;
+	font-family: "blenny";
+}
+
+.designation {
+	color: white;
+	font-family: "ff-market-web";
+}
+
+
+/*Call*/
+
+#call {
+	background-color: black;
+	color: white;
+}
+
+/*Experience*/
+
+.experience {
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #faebd7;
+}
+
+.projects {
+	padding: 20px 20px 20px 20px;
+	background-color: #faebd7;
+}
+
+/*Portfolio*/
+
+.portfolio {
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.portfolioImages a img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pImages {
+	max-height: 350px;
+}
+
+.pImages p {
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  opacity: 0;
+}
+
+.pImages p {
+	display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 160px;
+}
+
+.pImages p:hover {
+	opacity: 1;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+@media only screen and (max-width: 786px) {
+    .pImages p {
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .pImages p {
+        padding-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .pImages p {
+        padding-top: 20px;
+    }
+}
+
+/*Skills*/
+
+.skills {
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.skillsImages img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/*Bio*/
+.bio {
+	min-height: 400px;
+}
+
+.bio .row {
+	padding-top: 100px;
+}
+
+.bio h2 {
+	font-family: "flood-std";
+}
+
+.bio p {
+	font-family: "factoria";
+}
+
+/*Contact*/
+
+.contact {
+	background-image: url('../img/contactme.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1280px;
+}
+
+.jumbotron {
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: transparent;
+	margin-bottom: 0px;
+}
+
+.contact h2 {
+
+
+}
+
+.send {
+	#gradient > .directional(#333; #000; 45deg);
+}
+
+/*Footer*/
+
+.footer {
+	background-color: #545355;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.footer h6 {
+	padding-top: 12px;
+}
+
+.links {
+	font-weight: bold;
+	color:	white;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 10px;
+	transition: all .5s ease-in;
+}
+
+.links:hover {
+	transform: scale(1.1);
+}
